@@ -2,7 +2,8 @@
   "version": "1.0.0-*",
   "buildOptions": {
     "debugType": "portable",
-    "emitEntryPoint": true
+    "emitEntryPoint": true,
+    "copyToOutput": "config.json"
   },
   "dependencies": {
     "Discore": "1.0.0",
@@ -19,5 +20,10 @@
       },
       "imports": "dnxcore50"
     }
+  },
+  "publishOptions": {
+    "include": [
+      "config.json"
+    ]
   }
 }

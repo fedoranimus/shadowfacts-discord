@@ -1,1 +1,4 @@
 config.json
+
+**/src/bin
+**/src/obj
