@@ -15,7 +15,7 @@ namespace ShadowfactsDiscord
             var configuration = builder.Build();
             //_token = Configuration["token"];
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Token: {0}", _token);
         }
 
         private void Start()
